@@ -32,6 +32,40 @@ leftbtn1.addEventListener('click',function(event){
     event.preventDefault();
 });
 
+const leftbtn2 = document.querySelector(".btn-2b");
+const rightbtn2 = document.querySelector(".btn-2a");
+
+rightbtn2.addEventListener('click',function(event){
+    console.log("done");
+    const conent=document.querySelector('.product-slide-2');
+    conent.scrollLeft += 1100;
+    event.preventDefault();
+});
+
+leftbtn2.addEventListener('click',function(event){
+    console.log("done");
+    const conent=document.querySelector('.product-slide-2');
+    conent.scrollLeft -= 1100;
+    event.preventDefault();
+});
+
+const leftbtn3 = document.querySelector(".btn-3b");
+const rightbtn3 = document.querySelector(".btn-3a");
+
+rightbtn3.addEventListener('click',function(event){
+    console.log("done");
+    const conent=document.querySelector('.product-slide-3');
+    conent.scrollLeft += 1100;
+    event.preventDefault();
+});
+
+leftbtn3.addEventListener('click',function(event){
+    console.log("done");
+    const conent=document.querySelector('.product-slide-3');
+    conent.scrollLeft -= 1100;
+    event.preventDefault();
+});
+
 const backtop = document.querySelector(".backtop");
 
 backtop.addEventListener("click", () => {
@@ -50,10 +84,10 @@ sidebtn.addEventListener("click", () => {
     sidebar.classList.add("active");
     cross.classList.add("active");
     black.classList.add("active");
-})
+});
 
 cross.addEventListener("click", () => {
     sidebar.classList.remove("active");
     cross.classList.remove("active");
     black.classList.remove("active");
-})
+});
