@@ -804,7 +804,7 @@ i{
 /* sidebar css part */
 .sidebar{
     background-color: white;
-    width: 380px;
+    width: 320px;
     height: 100%;
     transform: translateX(-390px);
     transition: all 0.5s;
@@ -825,6 +825,15 @@ i{
 
 .hdn-head h2{
     line-height: 60px;
+}
+.hdn-head i.fa-xmark{
+    margin-left: 65px;
+    color: lightcyan;
+}
+
+.hdn-head i.fa-xmark:hover{
+    margin-left: 40px;
+    color: lightgray;
 }
 
 .hdn-content h3{
