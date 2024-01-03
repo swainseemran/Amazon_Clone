@@ -386,7 +386,7 @@ i{
     }
 }
 @media only screen and (max-width: 480px) {
-    .second-2 {
+    .second {
         display: none;
     }
 }
