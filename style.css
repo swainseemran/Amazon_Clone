@@ -385,8 +385,17 @@ i{
         display: none;
     }
 }
+@media only screen and (max-width: 768px) {
+    .second  {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 480px) {
-    .second {
+    .second .second-1 {
+        display: block;
+    }
+    .second .second-2 {
         display: none;
     }
 }
