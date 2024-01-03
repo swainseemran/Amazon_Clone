@@ -451,8 +451,6 @@ i{
 }
 
 
-
-
 .container-1{
     position: absolute;
     z-index: 1;
@@ -844,7 +842,7 @@ i{
     justify-content: space-between;
 }
 
-.fa-xmark{
+/* .fa-xmark{
     top: 20px;
     left: 400px;
     position: absolute;
@@ -856,7 +854,7 @@ i{
 .fa-xmark:hover{
     color: white;
     background-color: #232f3e;
-}
+} */
 
 .fa-angle-right{
     color: rgb(27, 27, 27);
